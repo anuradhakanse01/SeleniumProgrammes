@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel">
+	<test name="Test" thread-count="5" verbrose="2" parallel="classes">
+		<classes>
+			<class name="testcase.CreateLead" />
+			<class name="testcase.DeleteLead" />
+			<class name="testcase.DuplicateLead" />
+			<class name="testcase.EditLead" />
+			<class name="testcase.MergeLead" />
+		</classes>
+	</test>
+</suite>
