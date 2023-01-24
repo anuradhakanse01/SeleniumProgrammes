@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel">
+	<parameter name="url" value="http://leaftaps.com/opentaps/"></parameter>
+	<parameter name="username" value="Demosalesmanager"></parameter>
+	<parameter name="password" value="crmsfa"></parameter>
+	<test thread-count="2" name="Test">
+		<classes>
+			<class name="week5.CreateLead" />
+			<class name="week5.DeleteLead" />
+			<class name="week5.DuplicateLead" />
+			<class name="week5.EditLead" />
+			<class name="week5.MergeLead" />
+		</classes>
+	</test>
+</suite>
