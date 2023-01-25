@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel">
+	<parameter name="url" value="https://login.salesforce.com/"></parameter>
+	<parameter name="username"
+		value="hari.radhakrishnan@qeagle.com"></parameter>
+	<parameter name="password" value="Leaf@123"></parameter>
+	<test thread-count="2" name="Test">
+		<classes>
+			<class name="marathon.SalesforceLogin1" />
+			<class name="marathon.SalesforceLogin2" />
+		</classes>
+	</test>
+</suite>
